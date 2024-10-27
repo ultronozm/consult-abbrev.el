@@ -28,7 +28,7 @@
 ;; of their expansions.
 ;;
 ;; Usage:
-;; M-x consult-abbrevs
+;; M-x consult-abbrev
 
 ;;; Code:
 
@@ -70,7 +70,7 @@
    tables))
 
 ;;;###autoload
-(defun consult-abbrevs ()
+(defun consult-abbrev ()
   "Browse active abbrevs with live preview."
   (interactive)
   (let* ((tables (abbrev--active-tables))
