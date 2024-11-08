@@ -27,6 +27,8 @@
 ;; It shows both global and mode-specific (local) abbrevs with live preview
 ;; of their expansions.
 ;;
+;; Installation: download this file, do `M-x package-install-file'.
+;;
 ;; Usage:
 ;; M-x consult-abbrev
 
